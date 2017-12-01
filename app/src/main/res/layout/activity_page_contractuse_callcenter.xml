@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@android:color/background_light"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,UselessParent">
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="99dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color"
+                android:orientation="vertical"
+                tools:ignore="DisableBaselineAlignment">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@color/color"
+                    android:gravity="center"
+                    android:text="@string/st_pagepopup_call_center"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/FontSizeHeader"
+                    tools:ignore="HardcodedText"/>
+
+                <!--android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/bt_clickpage_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_button"
+                    android:text="ตกลง"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonOrder,ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/bt_clickpage_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@color/bg_button"
+                    android:text="ยกเลิก"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

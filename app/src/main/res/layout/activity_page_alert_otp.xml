@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="รหัส OTP  จะถูกส่งไปยังหมายเลขโทรศัพท์มือถือ 0xx-xxxx-123"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,InefficientWeight"
+            tools:text="@string/alertOTP"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ok_tocreate_OTP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_buttom"
+                android:text="OK"
+                android:textAlignment="center"
+                android:textColor="@color/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonOrder,ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+            <Button
+                android:id="@+id/cancle_tologin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_buttom"
+                android:text="CANCLE"
+                android:textAlignment="center"
+                android:textColor="@color/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

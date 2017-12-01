@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/drawerLayout_02"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/color"
+                                        android:orientation="vertical"
+                                        tools:context="com.siamsmile.mobileagentsiamsmile.Tab">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_orange_dark"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.10"
+                    android:gravity="center"
+                    android:text="สถานะ : "
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/FontSizeHeaderDetail"
+                    tools:ignore="HardcodedText"/>
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.09"
+                    android:gravity="center"
+                    android:text="@string/st_claim_detail"
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/FontSizeHeaderDetail"
+                    tools:ignore="HardcodedText,InefficientWeight"/>
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.03"
+                    app:srcCompat="@drawable/pos"
+                    tools:ignore="ContentDescription"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment,UselessLeaf">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    tools:ignore="InefficientWeight,RtlHardcoded,UselessParent">
+
+                    <LinearLayout
+                        android:layout_width="139dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imv_000"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/l2"
+                            tools:ignore="ContentDescription"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:orientation="horizontal"
+                        tools:ignore="RtlHardcoded">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            tools:ignore="UselessLeaf">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView78"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="App Id : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_01"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="11234567890"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    android:textStyle="bold"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView77"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:text="ชื่อผู้ชำระเบี้ย : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="นายสนทัย  รางวัณ"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView76"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ชื่อผู้เอาประกัน : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="นางสา อามา"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView70"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="แผนของประกัน : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="502-Silver"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView61"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Detail : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="TEST"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView79"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="สถานะกรมธรรม์ : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="รอการอนุมัติ"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView80"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="จำนวนเงิน : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="590  บาท"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="27dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView1009"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="รวมยอดเงิน : "
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                                <TextView
+                                    android:id="@+id/text_08"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="590  บาท"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/font_subject"
+                                    android:textSize="@dimen/FontSize"
+                                    tools:ignore="HardcodedText"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="ไฟล์แนบ     "
+                    android:textColor="@color/color00B0FF"
+                    android:textSize="@dimen/FontSizeSubject"
+                    android:textStyle="italic"
+                    tools:ignore="HardcodedText"/>
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/addfile2"
+                    tools:ignore="ContentDescription"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UselessLeaf">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/active_dot"
+                    android:drawableLeft="@drawable/map"
+                    android:text="สถานที่ในการแจ้งเคลม"
+                    android:textColor="@color/font_header"
+                    android:textSize="@dimen/Font_Men_Button"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/active_dot"
+                    android:drawableLeft="@drawable/menu_012"
+                    android:text="ช่องทางรับค่าสินไหม"
+                    android:textColor="@color/font_detail"
+                    android:textSize="@dimen/Font_Men_Button"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/active_dot"
+                    android:drawableLeft="@drawable/agent"
+                    android:text="ตัวแทน"
+                    android:textColor="@color/font_detail"
+                    android:textSize="@dimen/Font_Men_Button"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                tools:ignore="UselessLeaf">
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:text="สถานะ"
+                    android:textAlignment="center"
+                    android:textColor="@color/bg_button"
+                    android:textSize="@dimen/FontSizeSubject"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="130dp"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่แจ้งสินไหม : "
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText"/>
+
+                    <TextView
+                        android:id="@+id/textView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XXXXXX  00:00"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,InefficientWeight,NestedWeights"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="130dp"
+                    android:orientation="horizontal"
+                    tools:ignore="InefficientWeight,RtlHardcoded">
+
+                    <TextView
+                        android:id="@+id/textView97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่ตัวแทนนัดรับเอกสาร : "
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,NestedWeights"/>
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="XXXXXX  00:00"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,InefficientWeight,NestedWeights"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="130dp"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่อนุมัติเอกสาร : "
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,NestedWeights"/>
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="XXXXXX 00:00"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,InefficientWeight,NestedWeights"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="130dp"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่รับค่าสินไหม : "
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,NestedWeights"/>
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="XXXXXX : 00:00"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,InefficientWeight,NestedWeights"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.98"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:ignore="InefficientWeight,UseCompoundDrawables,UselessLeaf">
+
+                    <TextView
+                        android:id="@+id/txt_calendar"
+                        android:layout_width="173dp"
+                        android:layout_height="90dp"
+                        android:gravity="center"
+                        android:text="นัดวันรับเอกสาร"
+                        android:textAlignment="center"
+                        android:textColor="@color/bg_title"
+                        android:textSize="@dimen/FontSizeSubject"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText"/>
+
+                    <ImageView
+                        android:id="@+id/img_calendar"
+                        android:layout_width="108dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/calendar"
+                        tools:ignore="ContentDescription,NestedWeights"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@color/color"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gridview_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    tools:ignore="NestedScrolling"/>
+
+            </LinearLayout>
+
+        </android.support.design.widget.BottomNavigationView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/color"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <GridView
+                    android:id="@+id/gridview_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="1140dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:ignore="NestedScrolling"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_logout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+
+                android:background="@color/bg_button"
+                android:drawableRight="@drawable/log_out"
+                android:gravity="center"
+                android:text="LogOut"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/font_button"
+                android:textSize="@dimen/FontSizeButton"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="tabbar_height">70dp</dimen>
+    <dimen name="FontSize">20sp</dimen>
+    <dimen name="Font_Men_Button">18sp</dimen>
+    <dimen name="w_button">230dp</dimen>
+    <dimen name="H_Botton">40dp</dimen>
+    <dimen name="dialog_Filter_W">400dp</dimen>
+    <dimen name="Height_Botton_Menu">100dp</dimen>
+    <dimen name="txt_sizeclaim">18dp</dimen>
+    <dimen name="H_button_logout">70dp</dimen>
+
+</resources>

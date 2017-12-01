@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_background"
+              android:divider="?android:attr/colorForeground"
+              android:dividerHeight="5dp"
+              android:orientation="horizontal"
+              tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#fafafa"
+        android:divider="#fafafa"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/expandedListItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#fafafa"
+            android:divider="?android:attr/colorForeground"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="@color/font_detail"
+            android:textSize="22sp"
+            tools:ignore="InefficientWeight,RtlHardcoded,RtlSymmetry"/>
+
+    </LinearLayout>
+
+</LinearLayout>

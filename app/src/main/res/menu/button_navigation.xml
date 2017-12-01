@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_recent"
+        android:enabled="true"
+        android:icon="@drawable/menu_1_"
+        android:title="Test1"
+        android:visible="false"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/item_favorite"
+        android:enabled="true"
+        android:icon="@drawable/menu_1_"
+        android:title="Test2"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/item_nearby"
+        android:enabled="true"
+        android:icon="@drawable/menu_1_"
+        android:title="Test3"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/item_other"
+        android:enabled="true"
+        android:icon="@drawable/menu_1_"
+        android:title="Test4"
+        tools:ignore="HardcodedText"/>
+
+</menu>

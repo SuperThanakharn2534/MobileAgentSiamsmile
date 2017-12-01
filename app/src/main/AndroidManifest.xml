@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.siamsmile.mobileagentsiamsmile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Page_Logo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Page_Login" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Forwordpassword" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Forword_password_OTP" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Main" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_UserProfile" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_NewAppList" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_NewAppDetail_01" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_NewAppDetail_02" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_NewAppPayment_03" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ProspectList" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ProspectDetail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimFeedBack" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimMap" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypemenu_ClaimPayment" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep3_Status" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep2_Map" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep1_Claim" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep4_" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep5_ClaimFile" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimStep6_ClaimSign" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimSearch_Step1" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimApplication_Step2" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimApplicationDetail_Step3" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimFrom_Step4" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimFile_Step5" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimSign_Step6" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu_ClaimPolicy_Policy" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimTypeMenu" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer_History" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer_Payment" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Ranking" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ProductMedia" android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".Activity_Page_ProductMedia_Tab" android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".Activity_Page_ProductMediaDetail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_AlertMeDetail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_AlertMe_List" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_Statistics" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PaymentReports" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_SearchAgentLocation" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_FAQ" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Setting" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_CreatedPinCode" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Start" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Alert_OTP" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_First_Login" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ComFirmPinCode" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_LogInPinCode" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_Forget_Password" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimMap" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimStatus" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimStatus_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ClaimFeedBack" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer2_Payment" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer2_Payment_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_PayCustomer2_Payment_History" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_AgentLogin" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_SelectCheckBox" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Tab" android:screenOrientation="portrait"/>
+        <activity android:name=".FragmentTab_1_Page_Detail" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_PaymentReport_Tab" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_PaySearch_2_Tab" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_2_FragmentTab_2" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_PaySearch_1_Tab" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2_TabFragment_1_PopUp" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2_TabFragment_2_PopUp" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2_TabFragment_3_PopUp" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2_TabFragment_4_PopUp" android:screenOrientation="portrait"/>
+        <activity android:name=".PaySearch_1_FragmentTab_2_TabFragment_5_PopUp" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_Notification_Tab" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_ClaimTypeMenu_Status_Tab" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_1_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_2_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_3_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_4_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_5_Detail" android:screenOrientation="portrait"/>
+        <activity android:name=".Claim_FragmentTab_6_Detail" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Activity_Page_ContractUse_StatusAgent" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse_ComPlaint" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse_ComPlaint_2" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse_ComPlaint_3" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse_ComPlaint_4" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity_Page_ContractUse_ComPlaint_5" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

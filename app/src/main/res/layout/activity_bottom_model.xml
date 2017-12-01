@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+            <ImageView
+                android:id="@+id/imageView_BOTTOM_Model"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/login"
+                tools:ignore="ContentDescription,RtlHardcoded"/>
+
+            <com.nex3z.notificationbadge.NotificationBadge
+                android:id="@+id/badge2"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_alignTop="@+id/icon"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/icon"
+                app:badgeBackground="@drawable/badge_bg_with_shadow"
+                app:maxTextLength="2"
+                tools:ignore="ObsoleteLayoutParam,RtlHardcoded,UnknownId,UnknownIdInLayout">
+
+            </com.nex3z.notificationbadge.NotificationBadge>
+
+            <TextView
+                android:id="@+id/textView_Menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView_BOTTOM_Model"
+                android:layout_alignRight="@+id/imageView_BOTTOM_Model"
+                android:layout_below="@+id/imageView_BOTTOM_Model"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/bg_title"
+                android:textSize="@dimen/Font_Men_Button"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

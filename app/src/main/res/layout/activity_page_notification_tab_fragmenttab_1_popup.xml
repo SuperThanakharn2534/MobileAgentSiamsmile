@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/background_light"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,UselessParent">
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/st_pagepopup_fragment1"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText"/>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                tools:ignore="DisableBaselineAlignment">
+
+                <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    tools:ignore="InefficientWeight">
+
+                </SearchView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:orientation="vertical"
+                tools:ignore="DisableBaselineAlignment">
+
+                <CheckBox
+                    android:id="@+id/ch_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/color"
+                    android:text="อำเภอ"
+                    android:textColor="@color/font_detail"
+                    android:textSize="@dimen/FontSizeDetail"
+                    tools:ignore="HardcodedText"/>
+
+                <CheckBox
+                    android:id="@+id/ch_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color"
+                    android:text="ตำบล"
+                    android:textColor="@color/font_detail"
+                    android:textSize="@dimen/FontSizeDetail"
+                    tools:ignore="HardcodedText"/>
+
+                <CheckBox
+                    android:id="@+id/ch_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color"
+                    android:text="หน่วยงาน"
+                    android:textColor="@color/font_detail"
+                    android:textSize="@dimen/FontSizeDetail"
+                    tools:ignore="HardcodedText"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/bt_clickpage_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/shape_buttom"
+                    android:text="OK"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonOrder,ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/bt_clickpage_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/shape_buttom"
+                    android:text="CANCLE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

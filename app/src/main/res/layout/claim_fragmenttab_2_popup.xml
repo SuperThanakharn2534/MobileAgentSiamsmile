@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/background_light"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,UselessParent">
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/st_button_search"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                tools:ignore="HardcodedText"/>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/color1"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="1"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+
+                    <SearchView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:background="@color/color"
+                        tools:ignore="InefficientWeight,RtlHardcoded">
+
+                    </SearchView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/image_Click"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@color/color"
+                        app:srcCompat="@drawable/search"
+                        tools:ignore="ContentDescription"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="193dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color"
+                android:orientation="vertical"
+                tools:ignore="DisableBaselineAlignment">
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/color"
+                    android:text="@string/st_button_filter"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    tools:ignore="HardcodedText"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/color"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <Spinner
+                        android:id="@+id/Spinner_List_01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <!--android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/bt_clickpage_2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_buttom"
+                    android:text="OK"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonOrder,ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+                <Button
+                    android:id="@+id/bt_clickpage_1"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/shape_buttom"
+                    android:text="CANCLE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/font_button"
+                    android:textSize="@dimen/FontSizeButton"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

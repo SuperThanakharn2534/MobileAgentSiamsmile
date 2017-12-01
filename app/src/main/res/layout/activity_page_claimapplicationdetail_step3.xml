@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/drawerLayout_02"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/color"
+                                        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+        <ImageView
+            android:id="@+id/im_Detail_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/mortgage"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/txt_detail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="        APP ID  ข้อมูลลูกค้า สิทธิ์ ประวัติ"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,InefficientWeight"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/bt_detailstep3_back"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/greyish"
+                android:text="       บันทึกสินไหม"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,InefficientWeight"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/color"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <GridView
+                    android:id="@+id/gridview_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="900dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:ignore="NestedScrolling"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

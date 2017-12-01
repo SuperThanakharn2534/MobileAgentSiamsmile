@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00CCFF</color>
+    <color name="colorPrimaryDark">#00CCFF</color>
+    <!--<color name="colorPrimaryDark">#00CCFF</color>-->
+    <color name="colorAccent">#C6E2FF</color>
+    <color name="color">#FFFFFF</color>
+    <color name="color1">#EEEEEE</color>
+    <color name="colordetail">#F9FFFF</color>
+    <color name="color00B0FF">#00b0ff</color>
+
+
+    <color name="font_title">#FFFFFF</color>
+    <color name="font_tabsbar">#646464</color>
+    <color name="font_header">#8A8989</color>
+    <color name="font_subject">#29b6f6</color>
+    <color name="font_detail">#8a8989</color>
+    <color name="font_button">#ffffff</color>
+
+    <color name="bg_title">#29B6F6</color>
+    <color name="bg_tabsbar">#FFFFFF</color>
+    <color name="bg_header">#8A8989</color>
+    <color name="bg_subject">#FFFFFF</color>
+    <color name="bg_detail">#FFFFFF</color>
+    <color name="bg_button">#29b6f6</color>
+    <color name="bg_background">#fafafa</color>
+    <color name="font_appid">#000000</color>
+    <color name="bg_spinner">#ffffff</color>
+    <color name="Line_gray">#505050</color>
+
+
+
+</resources>

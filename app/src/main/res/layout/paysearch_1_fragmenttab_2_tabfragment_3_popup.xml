@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="@dimen/dialog_Filter_W"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="20dp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:ignore="ExtraText,UselessParent"><![CDATA[
+        >
+
+        ]]>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_line_group"
+            android:orientation="vertical"
+            android:padding="5dp"
+            tools:ignore="DisableBaselineAlignment">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/st_Sort_data"
+                android:textAlignment="textStart"
+                android:textColor="@color/font_subject"
+                android:textSize="@dimen/FontSizeSubject"
+                tools:ignore="HardcodedText"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <Spinner
+                    android:id="@+id/Spinner_List_01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <Spinner
+                    android:id="@+id/Spinner_List_02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <Spinner
+                    android:id="@+id/Spinner_List_03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <Spinner
+                    android:id="@+id/Spinner_List_04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <!--android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_line_group"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="1"
+            tools:ignore="DisableBaselineAlignment">
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  ค้นหา"
+                android:textColor="@color/font_subject"
+                android:textSize="@dimen/FontSize"
+                tools:ignore="HardcodedText,InefficientWeight"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_search_texts"
+                    tools:ignore="InefficientWeight,RtlHardcoded">
+
+                </SearchView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt_clickpage_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/bg_button"
+            android:text="@string/st_button_OK"
+            android:textAllCaps="false"
+            android:textColor="@color/font_button"
+            android:textSize="@dimen/FontSizeButton"
+            tools:ignore="ButtonOrder,ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+        <Button
+            android:id="@+id/bt_clickpage_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/bg_button"
+            android:text="@string/st_button_CanCel"
+            android:textAllCaps="false"
+            android:textColor="@color/font_button"
+            android:textSize="@dimen/FontSizeButton"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"/>
+
+    </LinearLayout>
+
+</LinearLayout>

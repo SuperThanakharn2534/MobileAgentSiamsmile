@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:ignore="DisableBaselineAlignment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        tools:ignore="InefficientWeight,RtlHardcoded,UselessParent">
+
+        <LinearLayout
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imv_00"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/color"
+                android:padding="5dp"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=" App Id : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeDetail"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ชื่อผู้ชำระเบี้ย : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSize"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ชื่อผู้เอาประกัน : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="แผนของประกัน : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Detail : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="วันที่ชำระเบี้ย : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ช่องทางการชำระเบี้ย : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ยอดเงิน : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1006"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Invoice : "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText,NestedWeights"/>
+
+                <TextView
+                    android:id="@+id/text_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/font_subject"
+                    android:textSize="@dimen/FontSizeSubject"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
